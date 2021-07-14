@@ -183,3 +183,40 @@ header{
     margin-top: 8px;
     margin-right:62px;
 }
+/* footer style */
+.footer-details{
+margin-top: 158px;
+text-align: center;
+}
+.footer-details img{
+    height: 213px;
+    width: 483.87px;
+    border-radius: 0px;
+}
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 14px;
+    margin-top: 20px;
+    height: 32px;
+    width: 170px;
+    margin-left: 788.88px;
+    top: 130px;
+    border-radius: 0px;
+}
+.social link i{
+    height: 32px;
+    width: 32px;
+    margin-bottom: 20px;
+}
+.fab{
+    color: gray;
+}
+.copyright{
+    color: black;
+    margin-left: 594.94px;
+    margin-right: 605.94px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400px
+}
