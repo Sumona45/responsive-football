@@ -12,6 +12,7 @@ header{
     margin-top: 0px;
     margin-bottom: 42px;
 }
+/* style navbar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -20,12 +21,10 @@ header{
     text-decoration: none;
     font-size: 17px;
   }
-  
   .topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
+  } 
   .topnav a.active {
     color: white;
   }
@@ -67,10 +66,12 @@ header{
     left: 1299.01px;
     top: 153px;   
 }
+/*...add trasform in banner.... */
 .heading-container:hover .banner{
     transform:scale(1.1) rotateZ(10deg);
     transition: transform 2s ease-in-out;
 }
+/*... transformation done.... */
 .primary-heading{
    font-size: 64px;
    font-weight: 700;
@@ -97,7 +98,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-/* main style */
+/*  style main part */
 .gallery-first{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -173,8 +174,6 @@ header{
     color: #FFFFFF;
     height: 44px;
     width: 168px;
-    /* left: 156px;
-    top: 464px; */
     border-radius: 0px;
     padding: 10px, 24px, 10px, 24px;
     display: flex;
