@@ -9,11 +9,33 @@ header{
     width: 1440px;
     height: 677px;
     margin-left: 0px;
-    margin-right: 0px;
     margin-top: 0px;
-    padding-top: 44px;
-    padding-left: 156px;
+    margin-bottom: 42px;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+.heading-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+    margin-top: 135px;
     padding-right: 140.99px;
+    padding-left: 156px;
 }
 .login-icon{
    width: 123px;
@@ -43,13 +65,11 @@ header{
     width: 556.01px;
     height: 456px;
     left: 1299.01px;
-    top: 153px
+    top: 153px;   
 }
-.heading-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 102px;
-    margin-top: 135px;
+.heading-container:hover .banner{
+    transform:scale(1.1) rotateZ(10deg);
+    transition: transform 2s ease-in-out;
 }
 .primary-heading{
    font-size: 64px;
@@ -184,7 +204,7 @@ header{
     margin-top: 8px;
     margin-right:62px;
 }
-/* footer style */
+/*------- footer style----------*/
 .footer-details{
 margin-top: 158px;
 text-align: center;
